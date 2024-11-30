@@ -33,6 +33,10 @@ None yet.
 
 ## Release Notes
 
+### 1.0.2
+
+Deprecated! Extension "Insert Tab" would give better control over format.
+
 ### 1.0.1
 
 Initial release
