@@ -1,4 +1,4 @@
-# insert-tab-when-press-tab README
+# Insert Tab when press Tab
 
 This extension allow you insert Tab when press Tab, when "Insert Spaces when press Tab" is enabled.
 
@@ -21,7 +21,7 @@ This extension wouldn't be much useful if your "editor.IndentSize" setting is "t
 
 Since some files may have a mixture of tabs and spaces for indent, this extension will treat all leading whitespace character as indent.
 
-When the Tab character appeared inside indent e.g. "    \t\n", you can not deleted that "\t" by backspace key in VSCode.
+When the Tab character appeared inside indent e.g. "    \t\n", you may not able to delete that "\t" by backspace key in VSCode.
 
 ## Extension Settings
 
