@@ -3,6 +3,19 @@
   "displayName": "Insert Tab when press Tab",
   "description": "Limit the 'Insert Spaces' config to only the indent, and enable you insert Tab when press Tab elsewhere..",
   "version": "0.0.1",
+	"publisher": "LinaLight",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/LinaLight/Insert-Tab-when-press-Tab.git"
+	},
+	"keywords": [
+		"vscode",
+		"tab",
+		"indent",
+		"space",
+		"align"
+	],
   "engines": {
     "vscode": "^1.95.0"
   },
@@ -10,13 +23,21 @@
     "Other"
   ],
   "activationEvents": [],
+  "icon": "icon.png",
   "main": "./out/extension.js",
   "contributes": {
     "commands": [
       {
-        "command": "insert-tab-when-press-tab.helloWorld",
-        "title": "Hello World"
+				"command": "Insert Tab",
+        "title": "Insert Tab"
       }
+    ],
+		"keybindings": [
+      {
+				"command": "Insert Tab",
+				"key": "Tab",
+				"when": "editorTextFocus && !editorReadOnly && !editorTabMovesFocus && !suggestWidgetVisible && !inSnippetMode && config.editor.tabCompletion=='on'"
+			}
     ]
   },
   "scripts": {

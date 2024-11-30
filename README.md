@@ -7,28 +7,26 @@ This extension is for those who use spaces for indent and tab for align.
 
 If:
 1. the Tab key is pressed.
-2. Editor is in Insert mode, not Normal mode nor Visual mode.
-3. Characters between the beginning of the current line and the cursor are all whitespaces character.
+2. Characters between the beginning of the current line and the cursor are not all whitespace character.
 Then:
 1. The Tab character is insert
+
+## Notes
+
+This extension wouldn't make any different if you have disabled the "Insert Spaces when press Tab".
+This extension wouldn't be much useful if your "editor.IndentSize" setting is "tabSize".
 
 ## Extension Settings
 
 No setting is required.
-But:
-This extension wouldn't have any effect if you disabled the "Insert Spaces when press Tab".
-This extension wouldn't be much useful if your "editor.IndentSize" setting is "tabSize".
 
-## Known Issues
+## Known Issues (Not really my issues)
 
-The Tab character insidel a line e.g. "    \t\n" can not be deleted by backspace key.
+Since some files may have a mixture of tabs and spaces for indent, this extension will treat all leading whitespace character as indent.
+When the Tab character appeared inside indent e.g. "    \t\n", you can not deleted that "\t" by backspace key in VSCode.
 
 ## Release Notes
-
-Users appreciate release notes as you update your extension.
 
 ### 0.0.1
 
 Initial release
-
-**Enjoy!**
