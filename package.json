@@ -2,7 +2,7 @@
   "name": "insert-tab-when-press-tab",
   "displayName": "Insert Tab when press Tab",
   "description": "Limit the 'Insert Spaces' config to only the indent, and enable you insert Tab when press Tab elsewhere..",
-  "version": "1.0.0",
+  "version": "1.0.1",
 	"publisher": "LinaLight",
 	"license": "MIT",
 	"repository": {
@@ -20,7 +20,8 @@
     "vscode": "^1.95.0"
   },
   "categories": [
-    "Other"
+    "Other",
+    "Formatters"
   ],
   "activationEvents": [],
   "icon": "icon.png",
