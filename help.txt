@@ -21,4 +21,4 @@ Make sure you have Node.js installed. Then run:
 npm install -g @vscode/vsce
 cd myExtension
 vsce package
-vsce publishvsce package
+vsce publish

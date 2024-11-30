@@ -2,7 +2,7 @@
   "name": "insert-tab-when-press-tab",
   "displayName": "Insert Tab when press Tab",
   "description": "Limit the 'Insert Spaces' config to only the indent, and enable you insert Tab when press Tab elsewhere..",
-  "version": "0.0.1",
+  "version": "1.0.0",
 	"publisher": "LinaLight",
 	"license": "MIT",
 	"repository": {
@@ -36,7 +36,7 @@
       {
 				"command": "Insert Tab",
 				"key": "Tab",
-				"when": "editorTextFocus && !editorReadOnly && !editorTabMovesFocus && !suggestWidgetVisible && !inSnippetMode && config.editor.tabCompletion=='on'"
+				"when": "editorTextFocus && !editorReadOnly && !editorTabMovesFocus"
 			}
     ]
   },
